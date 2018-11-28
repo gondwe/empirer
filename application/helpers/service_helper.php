@@ -1,0 +1,1 @@
+<?php function serve($view, $data=[]){$ci = &get_instance();$ci->load->view("section/header", $data);$ci->load->view($view,$data);$ci->load->view("section/footer");}function beefSecurity(){ redirect("auth/logout"); }function pf($i){ echo "<pre>"; print_r($i); echo "</pre>"; }function notify($message){}
