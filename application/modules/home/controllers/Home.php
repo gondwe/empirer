@@ -13,7 +13,7 @@ class Home extends MX_Controller {
 
 	public function index()
 	{
-		$data['product_list'] = $this->db->limit(10)->order_by('date', 'DESC')->get('products')->result();
+		$data = [];
 		serve('dashboard', $data);
 	}
 
@@ -104,5 +104,16 @@ class Home extends MX_Controller {
 		$p= $this->input->post();
 		$this->db->insert("charges", $p);
 		redirect("charges");
+	}
+	
+	
+	public function products(){
+		$data['product_list'] = $this->db->limit(10)->order_by('date', 'DESC')->get('products')->result();
+		serve("products", $data);
+	}
+	
+	public function gallery(){
+		
+		serve("gallery");
 	}
 }

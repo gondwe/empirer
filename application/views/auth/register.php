@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Santa</title>
+	<title>Salon:Signup</title>
 	
 	
 	<link rel="stylesheet" href="http://localhost/santa/assets/css/bootstrap.min.css" >
@@ -20,13 +20,21 @@
 		
 	</script>
 </head>
-<body class="m-5">
+<body class="m-5" style="background:pink">
     
 
 
 <div id="infoMessage"></div>
 
-<form action="http://localhost/santa/auth/register/<?=$reflink?>" method="post" accept-charset="utf-8">
+    <h1 class="text-center mt-5 pt-4 mx-md-5 display-4 pb-3" style="border-bottom:3px solid #dcdcdc">
+    <small class="text-center">SignUp</small>
+    </h1>
+
+	
+		
+
+
+<form action="http://localhost/salon/auth/register/<?=$reflink?>" method="post" accept-charset="utf-8">
 <div class="col-lg-4 col-md-6 pull-left">
       <p>
             <label for="first_name">First Name:</label> 

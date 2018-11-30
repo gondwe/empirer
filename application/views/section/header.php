@@ -8,8 +8,9 @@
 	<script src="<?=base_url("assets/js/popper.min.js")?>" ></script>
 	<script src="<?=base_url("assets/js/bootstrap.min.js")?>" ></script>
 
+  <title>Empirer Salon</title>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" style="background:darkmagenta !important">
   <a class="navbar-brand text-light" href="<?=base_url('/')?>">EMPIRER</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -17,13 +18,16 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="<?=base_url('employees')?>">EMPLOYEES <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?=base_url('employees')?>">Employees <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?=base_url('/customers')?>">CUSTOMERS</a>
+        <a class="nav-link" href="<?=base_url('/customers')?>">Customers</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?=base_url('/services')?>">SERVICES</a>
+        <a class="nav-link" href="<?=base_url('/services')?>">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?=base_url('/gallery')?>">Gallery</a>
       </li>
       
 	
@@ -35,6 +39,6 @@
 	
 </nav>
 
-<body class="m-5 p-3 ">
+<body class="m-5 p-3 " style='background:pink'>
 
 

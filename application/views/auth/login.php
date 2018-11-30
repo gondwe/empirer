@@ -14,11 +14,11 @@
 	
 	
 </head>
-<body>
+<body style="background:pink">
     
 </body>
 <div class="container">
-    <h1 class="text-warning text-center mt-5 pt-4 mx-md-5 display-4 pb-3" style="border-bottom:3px solid #dcdcdc">EMPIRER BEAUTY PARLOUR</h1>
+    <h1 class=" text-center mt-5 pt-4 mx-md-5 display-4 pb-3" style="border-bottom:3px solid #dcdcdc">EMPIRER BEAUTY PARLOUR</h1>
 	<div class="row justify-content-center">
 		<div class="col-md-6 col-sm-10 col-lg-5 pb-5">
 
@@ -59,7 +59,7 @@
     
   </div>
 
-  <div class="pull-right text-light"><a href="forgot_password" class="text-secondary"><?php echo lang('login_forgot_password');?></a></div>
+  <div class="pull-right text-light"><a href="<?=base_url('auth/register')?>" class="btn btn-danger">Sign Up</a></div>
 
   
 <?php echo form_close();?><div class='fixed-bottom m-3'style="text-align:center" >
